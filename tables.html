@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+<!--material Icons-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<!-- Font Awesome-->
+       <script src="https: //kit.fontawesome.com/6a79530112.Js" cross origin="anonymous"></script>
+   
+       <title>Form</title>
+</head>
+<body class="grey darken-2">
+    <nav class="orange accent-4">
+        <div class="nav-wrapper">
+            <div class="container">
+                <div class="col s12">
+                    <a href="" class="breadcrumb">Home</a>
+                    <a href="" class="breadcrumb">Users</a>
+                    <a href="" class="breadcrumb">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="white-text">Tables</h1>
+        
+        <!-- Tables -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Location</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Myra Cornejo</th>
+                    <th>myrabogateojenroc@gmail.com</th>
+                    <th>New York Cubao</th>
+                </tr>
+                <tr>
+                    <th>We Wi</th>
+                    <th>myra@gmail.com</th>
+                    <th>South Cubao</th>
+                </tr>
+                <tr>
+                    <th>Be Be</th>
+                    <th>ojenroc@gmail.com</th>
+                    <th>North Cubao</th>
+                </tr>
+            </tbody>    
+        </table>              
+                <!-- Stripe -->
+        <table class="striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Location</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Ma Myra Cornejo</th>
+                    <th>myrabogateojenroc@gmail.com</th>
+                    <th>New York Cubao</th>
+                </tr>
+                <tr>
+                    <th>We ko</th>
+                    <th>myra@gmail.com</th>
+                    <th>Southwest Cubao</th>
+                </tr>
+                <tr>
+                    <th>Be ko</th>
+                    <th>ojenroc@gmail.com</th>
+                    <th>Northwest Cubao</th>
+                </tr>   
+            </tbody>    
+        </table>     
+        
+        <!-- Bordered, Higlightened, Responsive Table -->   
+        <table class="bordered highlight responsive-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Location</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Maria Myra Cornejo</th>
+                    <th>bogateojenroc@gmail.com</th>
+                    <th>New Jersey Cubao</th>
+                </tr>
+                <tr>
+                    <th>WeWi Ko</th>
+                    <th>mai@gmail.com</th>
+                    <th>Southeast Cubao</th>
+                </tr>
+                <tr>
+                    <th>BeBe Ko</th>
+                    <th>cornejo@gmail.com</th>
+                    <th>Northeast Cubao</th>
+                </tr>                                             
+            </tbody>
+        </table>
+
+        <!-- Responsive Image -->
+        <div class="row">
+            <div class="col s12">
+                <img src="image/image3.jpg" alt="" class="responsive-img">
+            </div>
+        </div>
+        <!-- Responsive Circle Image -->
+        <img src="image/image3.jpg" alt="" class="responsive-img circle">
+        <!-- Responsive Video Embed -->
+        <div class="video-container">
+            <iframe width="1196" height="673" src="https://www.youtube.com/embed/rCIXjYo9qs4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+        </div>
+        <video class="responsive-video" controls>
+            <source src="image/vid.mkv">
+        </video>
+        <!-- end of container-->
+    </div>
+   
+ <!--Jquery CDN-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" 
+    crossorigin="anonymous">
+    </script>
+ <!-- Compiled and minified JavaScript -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ <script>
+       $(document).ready(function(){
+          // Select
+          $('select').formSelect();
+          // Date Picker
+          $('.datepicker').datepicker();
+          // Time Picker
+          $('.timepicker').timepicker();
+          // Character Counter
+          $('#post').characterCounter(); 
+          // Autocomplete
+          $('input.autocomplete').autocomplete({
+            data:{
+              "Apple": null,
+              "Microsoft": null,
+              "Google": 'https://placehold.it/250x250'
+            }
+          })
+        });
+ </script>
+</body>
+</html>
