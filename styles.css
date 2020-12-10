@@ -1,0 +1,35 @@
+#bgt{
+
+    min-height: 400px;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#hed{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.tx{
+    color:black;
+    font-family: fantasy;
+}   
+#ptxt{ 
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+}
+#pst{
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+}
+img{
+    margin-right: auto;
+    margin-left: auto;
+}
+a:hover{
+    color: rgb(255, 136, 0);
+}
